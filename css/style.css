@@ -1,0 +1,418 @@
+/**
+ * =================================================================== 
+ *
+ *  ResumeTemplate v1.0 ClearCareer
+ *  url: clearcareer.ca
+ *  Design by: Iskender Piyale-Sheard
+ *  website: izzydoesizzy.com
+ *  Created 06-27-2016
+ *  Last Updated: 03-19-2017
+ *  ------------------------------------------------------------------
+ *  Table of Contents:
+
+ *  01. Global Styles
+ *  02. Intro
+ *  03. Social Icons
+ *  04. Icon Fonts
+ *  05. Section Styles
+ *  06. Timeline Styles
+ *  05. Footer
+ EXTRAS
+
+ * =================================================================== 
+ */
+
+/* 01. Basic Styles
+ * =================================================================== */
+
+ html {
+    overflow-x: hidden;
+ }
+ body {
+    font-family: 'Source Sans Pro', sans-serif;
+ }
+
+ h1 {
+    font-weight: bold;
+ }
+
+ h2 {
+ }
+
+ h5 {
+    font-weight: 600;
+ }
+
+ a {
+    cursor: pointer;
+    color: #1abc9c;
+    text-decoration: none;
+ }
+
+ a:hover {
+    text-decoration:none;
+    color: #1abc9c;
+    opacity: 0.9;
+ }
+
+ hr {
+    border-top: 5px solid #1abc9c;
+    width: 80px;
+    padding-bottom: 20px;
+ }
+
+
+ .colour-splash {
+    color: #1abc9c;
+ }
+
+ .section-primary span {
+    color: #1abc9c;
+    font-weight: bolder;
+    opacity: 1;
+ }
+
+
+
+
+
+
+
+
+/* 02. Intro
+ * =================================================================== */
+
+ .section-image {
+ 	background-color: darkblue;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    display:table;
+ }
+
+ .img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #111111;
+    opacity: .7;
+    
+ }
+
+ .intro {
+    vertical-align: middle;
+    text-align: center;
+    display:table-cell;
+    -webkit-transform: translateY(-2.1rem);
+    -ms-transform: translateY(-2.1rem);
+    transform: translateY(-2.1rem);
+    z-index: 1000;
+}
+
+.intro .row {
+    margin-right: 0;
+    margin-left:0;
+}
+
+.intro h1 {
+    font-size: 84px;
+}
+
+.intro h5 {
+    color: #1abc9c;
+    font-size: 2.3rem;
+    margin-bottom: 0;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    text-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.section-image span {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    padding: 0 10px;
+    font-weight: 100;
+}
+
+.section-image h1 {
+    margin-top: 0;
+}
+
+.section-image p {
+    font-weight: lighter;
+    opacity: 0.9;
+}
+
+
+
+/* 03. Social Icons
+ * =================================================================== */
+
+.social {
+  margin: 0 10px;
+  padding-top: 1.3em;
+  text-align: center;
+  color: #fff;
+  font-size: 0.9em;
+}
+
+.social a {
+  color: white;
+  text-decoration:none;
+  padding: 2em;
+}
+
+.social a:hover{
+  opacity: 0.6;
+}
+
+.social-footer {
+    position: block;
+    padding: 15px;
+}
+
+.social-footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0.6em;
+    font-size: 1.7em;
+}
+
+
+/* 04. Icon Font
+ * =================================================================== */
+
+ .lnr {
+    font-size: 4em !important;
+    color:#fff;
+ }
+
+/* 05. Section Styles
+ * =================================================================== */
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.profilepic {
+    height: 350px;
+    width: auto;
+    border-radius: 50%;
+}
+
+.section-primary p {
+    text-align: justify;
+}
+
+.section-primary {
+    border: #1abc9c;
+}
+
+.section-colour {
+    background-color: #1abc9c;
+    color: #fff;
+}
+
+.section-colour p {
+    text-align: justify;
+}
+
+.section-heading .lead, .section-heading h2 {
+    text-align: center;
+}
+
+.section-colour {
+    border: #fff;
+}
+
+.section-colour hr {
+    border-top: 5px solid #fff;
+ }
+
+.skills{
+    list-style: none;
+
+}
+
+/* 01. Timeline Styles
+ * =================================================================== */
+
+.timeline-icon .fa {
+    color: white;
+    margin: 14px;
+    font-size: 1.7em;
+}
+
+#skills {
+   
+    height: 100%;
+}
+
+
+/* 05. Footer
+ * =================================================================== */
+
+footer {
+    display: block;
+    position: static;
+    bottom: 0;
+    background-color: black;
+    color: #fff;
+    padding: 50px 0;
+
+}
+
+footer p {
+    padding: 15px;
+    opacity: 0.8;
+}
+
+.icons8-ibm { 
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNTAiIGhlaWdodD0iNTAiCnZpZXdCb3g9IjAgMCA1MCA1MCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij48cGF0aCBkPSJNIDAgMTQuMDA3ODEzIEwgOS43MzQzNzUgMTQuMDA3ODEzIEwgOS43MzQzNzUgMTUuMzc4OTA2IEwgMCAxNS4zNzg5MDYgWiBNIDIxLjU4OTg0NCAxNC4wMDc4MTMgTCAxMS4xMjg5MDYgMTQuMDA3ODEzIEwgMTEuMTI4OTA2IDE1LjM3ODkwNiBMIDI1LjA3NDIxOSAxNS4zNzg5MDYgTCAyNC44NTU0NjkgMTUuMTY3OTY5IEwgMjQuNTc0MjE5IDE0Ljk2NDg0NCBMIDI0LjI4MTI1IDE0Ljc2MTcxOSBMIDIzLjk2MDkzOCAxNC41OTM3NSBMIDIzLjY0NDUzMSAxNC40NDE0MDYgTCAyMy4zMjQyMTkgMTQuMzEyNSBMIDIyLjk4MDQ2OSAxNC4xOTkyMTkgTCAyMi42MzI4MTMgMTQuMTI1IEwgMjIuMjkyOTY5IDE0LjA2MjUgTCAyMS45NTMxMjUgMTQuMDA3ODEzIFogTSAyNy44MTY0MDYgMTQuMDA3ODEzIEwgMjcuODE2NDA2IDE1LjM3ODkwNiBMIDM2LjIxNDg0NCAxNS4zNzg5MDYgTCAzNS43MzA0NjkgMTQuMDA3ODEzIFogTSA0Mi4xNjAxNTYgMTQuMDA3ODEzIEwgNDEuNjc1NzgxIDE1LjM3ODkwNiBMIDUwIDE1LjM3ODkwNiBMIDUwIDE0LjAwNzgxMyBaIE0gMCAxNi42NzU3ODEgTCAwIDE4LjAyMzQzOCBMIDkuNzM0Mzc1IDE4LjAyMzQzOCBMIDkuNzM0Mzc1IDE2LjY3NTc4MSBaIE0gMi43ODEyNSAxOS4zMTY0MDYgTCAyLjc4MTI1IDIwLjY5NTMxMyBMIDYuOTQxNDA2IDIwLjY5NTMxMyBMIDYuOTQxNDA2IDE5LjMxNjQwNiBaIE0gMi43ODEyNSAyMS45Njg3NSBMIDIuNzgxMjUgMjMuMzUxNTYzIEwgNi45NDE0MDYgMjMuMzUxNTYzIEwgNi45NDE0MDYgMjEuOTY4NzUgWiBNIDI2LjA1ODU5NCAxNi42NzU3ODEgTCAxMS4xMjg5MDYgMTYuNjc1NzgxIEwgMTEuMTI4OTA2IDE4LjAyMzQzOCBMIDI2LjU3ODEyNSAxOC4wMjM0MzggTCAyNi40MTQwNjMgMTcuNDgwNDY5IEwgMjYuMjg1MTU2IDE3LjEyNSBMIDI2LjEzMjgxMyAxNi44MDQ2ODggWiBNIDEzLjkxMDE1NiAxOS4zMTY0MDYgTCAxMy45MTAxNTYgMjAuNjk1MzEzIEwgMTguMDY2NDA2IDIwLjY5NTMxMyBMIDE4LjA2NjQwNiAxOS4zMTY0MDYgWiBNIDI2LjcwNzAzMSAxOS4zMTY0MDYgTCAyMi4yNTM5MDYgMTkuMzE2NDA2IEwgMjIuMjUzOTA2IDIwLjY5NTMxMyBMIDI2LjQ4MDQ2OSAyMC42OTUzMTMgTCAyNi41MTk1MzEgMjAuNTc4MTI1IEwgMjYuNjAxNTYzIDIwLjIzODI4MSBMIDI2LjY1NjI1IDE5Ljg5MDYyNSBMIDI2LjY5NTMxMyAxOS41MzUxNTYgWiBNIDI1Ljg5MDYyNSAyMS45Njg3NSBMIDEzLjkxMDE1NiAyMS45Njg3NSBMIDEzLjkxMDE1NiAyMy4zNTE1NjMgTCAyNC41NzQyMTkgMjMuMzUxNTYzIEwgMjQuODA4NTk0IDIzLjE5NTMxMyBMIDI1LjA3NDIxOSAyMi45NjQ4NDQgTCAyNS4zMTY0MDYgMjIuNzEwOTM4IEwgMjUuNTQyOTY5IDIyLjQ0NTMxMyBMIDI1Ljc2MTcxOSAyMi4xNjQwNjMgWiBNIDI3LjgxNjQwNiAxNi42NzU3ODEgTCAyNy44MTY0MDYgMTguMDIzNDM4IEwgMzcuMTQ0NTMxIDE4LjAyMzQzOCBMIDM2LjY2MDE1NiAxNi42NzU3ODEgWiBNIDUwIDE2LjY3NTc4MSBMIDQxLjIyNjU2MyAxNi42NzU3ODEgTCA0MC43NTc4MTMgMTguMDIzNDM4IEwgNTAgMTguMDIzNDM4IFogTSAzMC42MDE1NjMgMTkuMzE2NDA2IEwgMzAuNjAxNTYzIDIwLjY5NTMxMyBMIDM4LjA2MjUgMjAuNjk1MzEzIEwgMzcuNTc4MTI1IDE5LjMxNjQwNiBaIE0gNDcuMjg5MDYzIDE5LjMxNjQwNiBMIDQwLjI5Njg3NSAxOS4zMTY0MDYgTCAzOS44MjAzMTMgMjAuNjk1MzEzIEwgNDcuMjg5MDYzIDIwLjY5NTMxMyBaIE0gMzUuMjEwOTM4IDIzLjM0NzY1NiBMIDQyLjY5NTMxMyAyMy4zNDc2NTYgTCA0My4xMTcxODggMjIuMTIxMDk0IEwgNDMuMTE3MTg4IDIzLjM0NzY1NiBMIDQ3LjI4OTA2MyAyMy4zNDc2NTYgTCA0Ny4yODkwNjMgMjEuOTY4NzUgTCAzOS4zNzg5MDYgMjEuOTY4NzUgTCAzOC45NDUzMTMgMjMuMTk1MzEzIEwgMzguNTExNzE5IDIxLjk2ODc1IEwgMzAuNjAxNTYzIDIxLjk2ODc1IEwgMzAuNjAxNTYzIDIzLjM0NzY1NiBMIDM0Ljc3MzQzOCAyMy4zNDc2NTYgTCAzNC43NzM0MzggMjIuMTEzMjgxIFogTSAwIDMyLjYwMTU2MyBMIDAgMzMuOTkyMTg4IEwgOS43MzQzNzUgMzMuOTkyMTg4IEwgOS43MzQzNzUgMzIuNjAxNTYzIFogTSAwIDI5LjkyOTY4OCBMIDAgMzEuMzIwMzEzIEwgOS43MzQzNzUgMzEuMzIwMzEzIEwgOS43MzQzNzUgMjkuOTI5Njg4IFogTSAyLjc4MTI1IDI0LjYzNjcxOSBMIDIuNzgxMjUgMjYuMDAzOTA2IEwgNi45NDE0MDYgMjYuMDAzOTA2IEwgNi45NDE0MDYgMjQuNjM2NzE5IFogTSAyLjc4MTI1IDI3LjI4OTA2MyBMIDIuNzgxMjUgMjguNjY3OTY5IEwgNi45NDE0MDYgMjguNjY3OTY5IEwgNi45NDE0MDYgMjcuMjg5MDYzIFogTSAyNC41NzQyMTkgMjQuNjM2NzE5IEwgMTMuOTEwMTU2IDI0LjYzNjcxOSBMIDEzLjkxMDE1NiAyNi4wMDM5MDYgTCAyNS44OTA2MjUgMjYuMDAzOTA2IEwgMjUuNzYxNzE5IDI1LjgzOTg0NCBMIDI1LjU0Mjk2OSAyNS41NTg1OTQgTCAyNS4zMTY0MDYgMjUuMjg5MDYzIEwgMjUuMDc0MjE5IDI1LjAzMTI1IEwgMjQuODA0Njg4IDI0LjgwNDY4OCBaIE0gMTMuOTEwMTU2IDI3LjI4OTA2MyBMIDEzLjkxMDE1NiAyOC42Njc5NjkgTCAxOC4wNjY0MDYgMjguNjY3OTY5IEwgMTguMDY2NDA2IDI3LjI4OTA2MyBaIE0gMjYuNDgwNDY5IDI3LjI4OTA2MyBMIDIyLjI1MzkwNiAyNy4yODkwNjMgTCAyMi4yNTM5MDYgMjguNjY3OTY5IEwgMjYuNzA3MDMxIDI4LjY2Nzk2OSBMIDI2LjY5OTIxOSAyOC40NjA5MzggTCAyNi42NTYyNSAyOC4xMDU0NjkgTCAyNi42MDU0NjkgMjcuNzY1NjI1IEwgMjYuNTE5NTMxIDI3LjQyMTg3NSBaIE0gMjYuNTc4MTI1IDI5LjkyOTY4OCBMIDExLjEyODkwNiAyOS45Mjk2ODggTCAxMS4xMjg5MDYgMzEuMzIwMzEzIEwgMjYuMDU4NTk0IDMxLjMyMDMxMyBMIDI2LjEzMjgxMyAzMS4xOTkyMTkgTCAyNi4yODUxNTYgMzAuODc1IEwgMjYuNDE0MDYzIDMwLjU0Mjk2OSBMIDI2LjUxOTUzMSAzMC4yMTA5MzggWiBNIDI1LjA3NDIxOSAzMi42MDE1NjMgTCAxMS4xMjg5MDYgMzIuNjAxNTYzIEwgMTEuMTI4OTA2IDMzLjk5MjE4OCBMIDIxLjUzOTA2MyAzMy45OTIxODggTCAyMS44OTg0MzggMzMuOTc2NTYzIEwgMjIuMjUzOTA2IDMzLjkzNzUgTCAyMi41ODU5MzggMzMuODc1IEwgMjIuOTI5Njg4IDMzLjgwMDc4MSBMIDIzLjI3NzM0NCAzMy42Nzk2ODggTCAyMy41OTM3NSAzMy41NTg1OTQgTCAyMy45MTQwNjMgMzMuNDAyMzQ0IEwgMjQuMjM0Mzc1IDMzLjIzNDM3NSBMIDI0LjUyMzQzOCAzMy4wNDI5NjkgTCAyNC44MDg1OTQgMzIuODI0MjE5IFogTSAzMC42MDE1NjMgMjQuNjM2NzE5IEwgMzAuNjAxNTYzIDI2LjAwMzkwNiBMIDM0Ljc3MzQzOCAyNi4wMDM5MDYgTCAzNC43NzM0MzggMjQuNjM2NzE5IFogTSA0MS43NjU2MjUgMjYuMDAzOTA2IEwgNDIuMjQ2MDk0IDI0LjYzNjcxOSBMIDM1LjY0MDYyNSAyNC42MzY3MTkgTCAzNi4xMDkzNzUgMjYuMDAzOTA2IFogTSA0My4xMTcxODggMjQuNjM2NzE5IEwgNDMuMTE3MTg4IDI2LjAwMzkwNiBMIDQ3LjI4OTA2MyAyNi4wMDM5MDYgTCA0Ny4yODkwNjMgMjQuNjM2NzE5IFogTSAzMC42MDE1NjMgMjcuMjg5MDYzIEwgMzAuNjAxNTYzIDI4LjY2Nzk2OSBMIDM0Ljc3MzQzOCAyOC42Njc5NjkgTCAzNC43NzM0MzggMjcuMjg5MDYzIFogTSA0MS4zNDM3NSAyNy4yODkwNjMgTCAzNi41NDY4NzUgMjcuMjg5MDYzIEwgMzcuMDE5NTMxIDI4LjY2Nzk2OSBMIDQwLjg3MTA5NCAyOC42Njc5NjkgWiBNIDQzLjExNzE4OCAyNy4yODkwNjMgTCA0My4xMTcxODggMjguNjY3OTY5IEwgNDcuMjg5MDYzIDI4LjY2Nzk2OSBMIDQ3LjI4OTA2MyAyNy4yODkwNjMgWiBNIDI3LjgxNjQwNiAyOS45Mjk2ODggTCAyNy44MTY0MDYgMzEuMzIwMzEzIEwgMzQuNzczNDM4IDMxLjMyMDMxMyBMIDM0Ljc3MzQzOCAyOS45Mjk2ODggWiBNIDQwLjQzMzU5NCAyOS45Mjk2ODggTCAzNy40NDkyMTkgMjkuOTI5Njg4IEwgMzcuOTI1NzgxIDMxLjMyMDMxMyBMIDM5Ljk2NDg0NCAzMS4zMjAzMTMgWiBNIDQzLjExNzE4OCAyOS45Mjk2ODggTCA0My4xMTcxODggMzEuMzIwMzEzIEwgNTAgMzEuMzIwMzEzIEwgNTAgMjkuOTI5Njg4IFogTSAyNy44MTY0MDYgMzIuNjAxNTYzIEwgMjcuODE2NDA2IDMzLjk5MjE4OCBMIDM0Ljc3MzQzOCAzMy45OTIxODggTCAzNC43NzM0MzggMzIuNjAxNTYzIFogTSA0My4xMTcxODggMzIuNjAxNTYzIEwgNDMuMTE3MTg4IDMzLjk5MjE4OCBMIDUwIDMzLjk5MjE4OCBMIDUwIDMyLjYwMTU2MyBaIE0gMzkuMDQyOTY5IDMzLjk5MjE4OCBMIDM5LjUxOTUzMSAzMi42MDU0NjkgTCAzOC4zNzEwOTQgMzIuNjA1NDY5IEwgMzguODM5ODQ0IDMzLjk5MjE4OCBaIj48L3BhdGg+PC9zdmc+') 50% 50% no-repeat;
+    background-size: 100%;
+    
+}
+
+/* EXTRAS
+ * =================================================================== */
+
+
+
+        /* Mouse Icon
+         * =================================================================== */
+        .mouse-icon {
+            border: 2px solid #fff;
+            border-radius: 16px;
+            display: block;
+            height: 50px;
+            margin: 100px auto;
+            position: absolute;
+            left: 0;
+            right: 0;
+            width: 30px;
+            z-index: 10;
+        }
+        .mouse-icon .scroll {
+            animation-delay: 0s;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-name: scrolling;
+            animation-play-state: running;
+            animation-timing-function: linear;
+        }
+        .mouse-icon .scroll {
+            background: #fff none repeat scroll 0 0;
+            border-radius: 10px;
+            height: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            top: 4px;
+            width: 4px;
+        }
+        @keyframes scrolling {
+        0% {
+            opacity: 0;
+            top: 5px;
+        }
+        30% {
+            opacity: 1;
+            top: 10px;
+        }
+        100% {
+            opacity: 0;
+            top: 25px;
+        }
+        }
+
+        .pad-xl {
+            padding: 200px 0px;
+        }
+
+        .pad-lg {
+            padding: 160px 0px;
+        }
+
+        .pad-sm {
+            padding: 80px 0px;
+        }
+
+        .pad-xs {
+            padding: 30px 0px;
+        }
+
+        /* /Mouse Icon
+         * =================================================================== */
+
+ 
+/* Media Queries
+ * =================================================================== */
+
+@media (max-width: 480px) {
+    .social a {
+        padding: 0.4em;
+        font-size: 0.9em;
+    }
+
+    .social-footer {
+        text-align: center;
+        position:block;
+        text-align: center;
+    }
+
+    .social-footer a {
+        padding: 0.3em;
+        font-size: 1.6em;
+
+    }
+
+    .intro-desc {
+        font-size: 0.7em;
+    }
+
+    .section-image span {
+        font-size: 1em;
+        padding: 0 1px;
+
+}
+
+    .intro h1 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+
+    footer {
+        text-align: center;
+        padding-bottom: 100px;
+    }
+
+    #skills {
+        
+        background-position: top center;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .social-footer {
+        text-align: center;
+    }
+
+    footer p {
+    text-align: center;
+    }
+
+}
+
+
