@@ -106,6 +106,16 @@
     
  }
 
+.button{
+
+    padding: 3rem;
+}
+
+.downloads{
+    display:flex;
+    justify-content: center;
+}
+
  .intro {
     vertical-align: middle;
     text-align: center;
@@ -241,6 +251,8 @@ section {
     list-style: none;
 
 }
+
+
 
 /* 01. Timeline Styles
  * =================================================================== */
